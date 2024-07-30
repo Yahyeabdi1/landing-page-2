@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 export default function Home() {
-  const [pantry, setPantry] = useState([]); // Initialize with no items
+  const [pantry, setPantry] = useState([]); 
   const [open, setOpen] = useState(false);
   const [newItem, setNewItem] = useState("");
   const [error, setError] = useState("");
